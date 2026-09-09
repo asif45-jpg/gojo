@@ -1,9 +1,9 @@
-<<<<<<< HEAD
+#<<<<<<< HEAD
 list = ["1:food","2:education","3:tech","4:exit"]
 total = 0
 spend = 0
 print("________welcome________")
-=======
+#=======
 CATEGORIES = {
     "1": ("food", 1500.0),
     "2": ("education", 1000.0),
@@ -14,12 +14,12 @@ spend = []
 budget_left = {key: budget for key, (_, budget) in CATEGORIES.items()}
 
 QUIT = ("q", "quit", "exit")
->>>>>>> 0a05bbb7ae1f66888a2dfbfc91657e79e7c5fe9f
+#>>>>>>> 0a05bbb7ae1f66888a2dfbfc91657e79e7c5fe9f
 
 while True:
         print(f"choce one thing {list}")
 
-<<<<<<< HEAD
+#<<<<<<< HEAD
         choice = int(input("Enter your choice:"))
         if choice > 5:
             print("choose number between 1 to 4")
@@ -58,7 +58,7 @@ print("_______________________")
 
         
         
-=======
+#=======
 def ask(prompt):
     """input() that returns None on Ctrl-D / Ctrl-C instead of raising."""
     try:
@@ -66,7 +66,7 @@ def ask(prompt):
     except (EOFError, KeyboardInterrupt):
         print()
         return None
->>>>>>> 0a05bbb7ae1f66888a2dfbfc91657e79e7c5fe9f
+#>>>>>>> 0a05bbb7ae1f66888a2dfbfc91657e79e7c5fe9f
 
 
 def show_menu():
